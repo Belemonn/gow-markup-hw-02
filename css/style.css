@@ -146,3 +146,21 @@ ul {
     color: #2e2f42
 } 
 
+/* Footer */
+.foot  {
+    background-color: #2e2f42;
+
+}
+
+.foot-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.studio {
+    color: #f4f4fd;
+}
+
+
