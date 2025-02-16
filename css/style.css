@@ -4,12 +4,14 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
+    color: #2e2f42;
 }
 
 ul {
     list-style: none;
 }
 
+/* Header */
 .logo {
     font-family: "Raleway" sans-serif;
     font-weight: 700;
@@ -50,4 +52,32 @@ ul {
 
 .communication .link:hover {
     color: #404bbf;
+}
+
+/* Wraper */
+.hero-image {
+    background-color:  #2e2f42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.order {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    cursor: pointer;
+}
+
+.service {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
 }
