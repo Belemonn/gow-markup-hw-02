@@ -23,7 +23,7 @@ ul {
     text-decoration: none;
 }
 
-.logo-web {
+.logo-studio {
     color: #2e2f42;
 }
 
@@ -76,7 +76,7 @@ ul {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -85,17 +85,100 @@ ul {
 
 /* Button */
 .order {
-    background-color: #4d5ae5;
-}
-
-.order:hover {
-    background-color: #404bbf;
-}
-
-.service {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    background-color: #4d5ae5;
 }
+
+.order:hover,
+.order:focus {
+    background-color: #404bbf;
+}
+
+
+
+
+
+/* Feature */
+
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Our Team */
+.team {
+    background-color: #F4F4FD;
+}
+
+.page-title-2 {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.team-list .team-item {
+    background-color: #FFFFFF;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+/* Portfolio */
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.studio-foot {
+    background-color: #2e2f42;;
+}
+
+.logo-foot {
+    color: #f4f4fd;
+}
+
+.text-foot {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
