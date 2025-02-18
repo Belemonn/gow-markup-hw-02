@@ -76,11 +76,12 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    text-align: center;
 }
 
 
 /* Button */
-.order {
+.service {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -91,8 +92,8 @@ ul {
     cursor: pointer;
 }
 
-.order:hover,
-.order:focus {
+.service:hover,
+.service:focus {
     background-color: #404bbf;
 }
 
@@ -113,6 +114,14 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+}
+
+..page-title-3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .text-1 {
